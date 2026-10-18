@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #222;
+    color: white;
+}
+
+#board {
+    display: grid;
+    grid-template-columns: repeat(var(--columns), 30px);
+    width: fit-content;
+    max-width: 100%;
+    margin: 30px auto;
+    overflow-x: auto;
+}
+
+#board img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    user-select: none;
+}
+
+#counter {
+    font-size: 20px;
+}
+
+#status {
+    font-size: 26px;
+    font-weight: bold;
+}
+#restart {
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    text-decoration: none;
+}
