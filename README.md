@@ -2,7 +2,7 @@
 
 Классический Сапёр в браузере. Чистые HTML, CSS и JavaScript: без фреймворков и библиотек.
 
-**[Играть]()**
+**[Играть](https://1artard.github.io/simple-minesweeper-js/)**
 
 ![Скриншот игры](screenshot.png)
 
